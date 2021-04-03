@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Calibrate.css';
-import conImage from './images/con.png';
+import conImage from './images/containerImage.png';
 import firebase from './util/firebase.js';
 import "firebase/database";
 
