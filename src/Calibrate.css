@@ -1,0 +1,29 @@
+.Calibrate {
+    display: flex;
+    color: #767676;
+    padding: 2rem 3rem;
+    flex-direction: column;
+}
+
+.options {
+    padding: 0rem 5rem 2rem 5rem;
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.calibrate-form {
+    flex-direction: column;
+    padding: 10rem;
+}
+
+.calibrate-button {
+    margin: 2rem;
+    padding: 1rem 3rem;
+    color: white;
+}
+
+.result {
+    flex-direction: row;
+    display: inline-flex;
+    padding-left: 6rem;
+}
