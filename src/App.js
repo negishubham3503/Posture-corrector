@@ -1,11 +1,12 @@
 import React from 'react'
 import './App.css';
 import Calibrate from './Calibrate';
+import Landing from './Landing';
 
 function App() {
   return (
     <div className="App">
-      <Calibrate />
+      <Landing />
     </div>
   );
 }
