@@ -1,35 +1,38 @@
 #features{
-    padding: 7% 15%;
-    background-color: #fff;
-    position: relative;
-    z-index: 1;
-  }
-  .feature-box{
-    text-align: center;
-  }
-  em{
-    color: #fff;
-  }
-  .icon{
-    color: #ef8172;
-    margin-bottom: 1rem;
-  }
-  .icon:hover{
-    color: #ff4c68;
-  }
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
 
-  .main {
-    padding: 0rem 0rem 0rem 10.7rem;
-    flex-direction: row;
-    display: inline-flex;
-    overflow: hidden;
+.feature-box{
+  text-align: center;
+}
+
+em{
+  color: #fff;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+.main {
+  padding: 0rem 0rem 0rem 10.7rem;
+  flex-direction: row;
+  display: inline-flex;
+  overflow: hidden;
 }
 
 .top{
   position: absolute;
   top: 20%;
   left: 20%;
-  /*transform: translate(-50%, -50%);*/
   font-family: 'Arizonia', cursive;
   font-size: 5.5rem;
   line-height: 1.5;
@@ -41,7 +44,6 @@
   top: 37%;
   left: 20%;
   font-weight: 600;
-  /*transform: translate(-50%, -50%);*/
   font-family: 'Segoe UI';
   font-size: 2.75rem;
   line-height: 1.5;
@@ -52,7 +54,6 @@
   position: absolute;
   top: 49%;
   left: 20%;
-  /*transform: translate(-50%, -50%);*/
   font-family: 'Segoe UI';
   font-size: 1.84rem;
   line-height: 1.5;
@@ -60,21 +61,21 @@
   text-align:left;
 }
 
-.btn{
+.download-button{
   position: absolute;
   top: 70%;
   left: 20%;
-background-color:#FF7575;
-border-radius:1em;
-font-family: 'Segoe UI';
-font-size: 1.4rem;
-font-weight: 600;
-color:white;
-text-transform:uppercase;
-padding:0.6em 2em;
+  background-color:#FF7575;
+  border-radius:1em;
+  font-family: 'Segoe UI';
+  font-size: 1.4rem;
+  font-weight: 600;
+  color:white;
+  text-transform:uppercase;
+  padding:0.6em 2em;
 }
 
-.btn:hover {
+.download-button:hover {
   background-color: #DFDFDF; /* Gray */
 }
 
@@ -82,7 +83,6 @@ padding:0.6em 2em;
   position: absolute;
   top: 125%;
   left: 46%;
-  /*transform: translate(-50%, -50%);*/
   font-family: 'Segoe UI';
   font-size: 1.3rem;
   font-weight: bold;
@@ -94,15 +94,12 @@ padding:0.6em 2em;
   position: absolute;
   top: 0%;
   left: 25%;
-  /*transform: translate(-50%, -50%);*/
   font-family: 'Segoe UI';
   font-size: 2.75rem;
   font-weight: 600;
   line-height: 1.3;
   color: #707070;
 }
-
-/*features*/
 
 #features{
   padding: 10% 13%;
@@ -135,12 +132,10 @@ h3.ac{
   color: #39374D;
 }
 
-/*About*/
-
 .end{
   position: absolute;
-  top: 223%;
-  left: 52%;
+  top: 231%;
+  left: 61%;
   font-family: 'Times New Roman';
   font-size: 1.3rem;
   font-weight: bold;
@@ -150,8 +145,8 @@ h3.ac{
 
 .endnext{
   position: absolute;
-  top: 228%;
-  left: 52%;
+  top: 239%;
+  left: 61%;
   font-family: 'Times New Roman';
   font-size: 2.75rem;
   font-weight: 600;
@@ -162,8 +157,8 @@ h3.ac{
 
 .last{
   position: absolute;
-  top: 245%;
-  left: 52%;
+  top: 257%;
+  left: 61%;
   font-family: 'Segoe UI';
   font-size: 1.3rem;
   color: #707070;
@@ -173,8 +168,8 @@ h3.ac{
 
 .lastone{
   position: absolute;
-  top: 254%;
-  left: 52%;
+  top: 266%;
+  left: 61%;
   font-family: 'Segoe UI';
   font-size: 1.3rem;
   color: #707070;
@@ -183,25 +178,23 @@ h3.ac{
 
 .success{
   position: absolute;
-  top: 266%;
-  left: 52%;
-background-color:#707070;
-border-radius:1em;
-font-family: 'Segoe UI';
-font-size: 1.3rem;
-font-weight: 600;
-color:white;
-text-transform:uppercase;
-padding:0.6em 1.5em;
+  top: 281%;
+  left: 61%;
+  background-color:#707070;
+  border-radius:1em;
+  font-family: 'Segoe UI';
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:white;
+  text-transform:uppercase;
+  padding:0.6em 1.5em;
 }
 
 .success:hover {
   background-color: #FF7575;
-  ;
   color: white;
 }
 
-/*steps*/
 .work{
   position: absolute;
   padding: 1em;
@@ -214,7 +207,6 @@ padding:0.6em 1.5em;
   color: #00A79D;
 }
 
-
 h3.pa{
   padding: 30% 30% 0 30%;
   font-family: 'Times New Roman';
@@ -224,7 +216,6 @@ h3.pa{
   color: #00A79D;
   
 }
-
 
 h3.pb{
   padding: 30% 30% 0 30%;
@@ -286,7 +277,6 @@ h3.pc{
 
 }
 
-
 h3.pd{
   padding: 30% 30% 0 30%;
   font-family: 'Times New Roman';
@@ -301,3 +291,9 @@ h3.pd{
   margin-top: 8%;
 }
 
+.bd {
+  color: white;
+  position: absolute;
+  top: 393%;
+  left: 38%;
+}
