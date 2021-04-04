@@ -1,7 +1,7 @@
 import React from 'react';
-import './Landing/css';
+import './Landing.css';
 
-export function Landing() {
+export default function Landing() {
     return (
         <div>
 
