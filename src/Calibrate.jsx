@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './Calibrate.css';
 import conImage from './images/containerImage.png';
+import wrong from './images/wrong.jpg';
+import right from './images/right.jpg';
 import firebase from './util/firebase.js';
 import "firebase/database";
 import BootstrapSwitchButton from 'bootstrap-switch-button-react';
@@ -82,6 +84,7 @@ export default function Calibrate() {
                     <label className="form-check-label" for="buzzerChecked" style={{marginRight: "3rem", marginTop: "2rem"}}>Buzzer</label>
                     <BootstrapSwitchButton id="buzzerChecked" checked={buzzer} onstyle="info" onChange={handleBuzzerChange} />
                 </form>
+                <img src={calibrate ? (data ? wrong : right) : "https://www.halberesford.com/content/images/2018/07/null.png"} style={{height: "20rem", width: "12rem", marginTop: "7rem"}} />
             </div>
             <div className="result">
                 <h3 style={{padding: "2rem 3rem 2rem 3rem"}}>Incorrect posture <br />count</h3>
@@ -90,7 +93,6 @@ export default function Calibrate() {
                 <h1 style={{color: "#00e273", fontSize: "6rem"}}>{time}</h1>
                 <h3 style={{padding: "2rem 3rem 2rem 10rem"}}>Incorrect posture <br/>duration (sec)</h3>
                 <h1 style={{color: "#ff5b69", fontSize: "6rem"}}>{IPTime}</h1>
-                <h5>{`You are in ${data ? "In" : ""}correct position`}</h5>
             </div>
             {/* <RTChart
                 fields={['sensorData']}
